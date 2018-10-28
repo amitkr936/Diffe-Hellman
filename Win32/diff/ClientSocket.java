@@ -1,3 +1,5 @@
+package diff;
+
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.ServerSocket;
@@ -7,7 +9,7 @@ import java.util.Scanner;
 public class ClientSocket 
 {
 //Server
-	public static void main(String arge[]) throws IOException
+	public ClientSocket() throws IOException
 	{
 		Socket ss = null;
 		int number = 0;

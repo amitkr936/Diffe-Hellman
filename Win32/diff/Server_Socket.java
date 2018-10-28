@@ -1,3 +1,5 @@
+package diff;
+
 import java.util.*;
 import java.io.IOException;
 import java.io.PrintStream;
@@ -7,7 +9,7 @@ import java.net.UnknownHostException;
 
 public class Server_Socket
 {//Client
-	public static void main(String args[]) throws UnknownHostException, IOException
+	public static void Main(String args[]) throws UnknownHostException, IOException
 	{
 		Scanner sc=new Scanner(System.in);
 		Socket s=new Socket("127.0.0.1",1342);//Specify the IP address and Port number
